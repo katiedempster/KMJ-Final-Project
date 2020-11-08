@@ -41,12 +41,16 @@ main {
   padding-bottom: 30px;
 }
 
-.aboutUs{
+/* .aboutTitle {
+  padding-left: 60px;
+} */
+
+/* .aboutUsText{
   margin-left: auto;
-  padding-inline-start: 60px;
+  padding-left: 60px;
   padding-inline-end: 60px;
   text-align: left;
-}
+} */
 
 hr {
   /* add some fancy styling to the horizontal lines */
@@ -63,7 +67,7 @@ hr {
 footer {
   display: flex;  /* allows use of "justify-content" property */
   justify-content: center;  /* horizontally centers the contents (the social icons) */
-  background-color: #666;
+  background-color: #fff;
   height: 100px;
   padding: 20px;
 }
