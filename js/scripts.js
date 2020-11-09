@@ -15,3 +15,8 @@ function topFunction() {
   $(window).scrollTop(0);
 }
 
+document.getElementById("img").addEventListener("mouseover, mouseOver");
+
+function mouseOver () {
+  document.getElementById("img").style.resize = "500px"
+}
