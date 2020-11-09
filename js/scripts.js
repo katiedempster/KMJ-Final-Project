@@ -23,3 +23,6 @@ function mouseOver () {
 }
 =======
 
+HTMLTableRowElement.addEventListener ('mouseenter', e => {
+  HTMLTableRowElement.style
+})
