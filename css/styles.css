@@ -67,8 +67,8 @@ hr {
 footer {
   display: flex;  /* allows use of "justify-content" property */
   justify-content: center;  /* horizontally centers the contents (the social icons) */
-  background-color: #fff;
-  height: 100px;
+  background-color: black;
+  height: 80px;
   padding: 20px;
 }
 
