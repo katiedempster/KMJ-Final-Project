@@ -14,4 +14,9 @@ function scrollFunction() {
 function topFunction() {
   $(window).scrollTop(0);
 }
-
+window.onload = function() {
+  alert("does this work?");
+  window.getElementById("actorJw").addEventListener("click", function() {
+    alert("hfhfhfhf");
+  });
+// }
