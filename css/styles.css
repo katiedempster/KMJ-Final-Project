@@ -49,9 +49,129 @@ hr {
   border-radius: 50%;
 }
 
-#meet-the-team img{
-  width: 100%;  /* fit the image within the div */
-  margin: 15px 0;
+.meetTheTeam {
+  display: flex;
+  justify-content: space-between;
+}
+
+.katieRow {
+  position: relative;
+  width: 50%;
+}
+
+.katieImage {
+  display: block;
+  width: auto;  
+  height: 350px;
+}
+
+.katieOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  width: 350px;
+  opacity: 0%;
+  transition: .5s ease;
+  background-color: rgb(255, 255, 116);
+}
+
+.katieRow:hover .katieOverlay {
+  opacity: 1;
+}
+
+.katieGithub {
+  color: black;
+  font-size: 30px;
+  position:absolute;
+  top: 32%;
+  left: 20%;
+  -webkit-transform: translate (-50%, -50%);
+  -ms-tranform: translate (-50%, -50%);
+  transform: translate (-50%, -50%);
+  text-align: center;
+}
+
+.maryRow {
+  position: relative;
+  width: 50%;
+}
+
+.maryImage {
+  display: block;
+  width: auto;  
+  height: 350px;
+}
+
+.maryOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  width: 350px;
+  opacity: 0%;
+  transition: .5s ease;
+  background-color: rgb(255, 255, 116);
+}
+
+.maryRow:hover .maryOverlay {
+  opacity: 1;
+}
+
+.maryGithub {
+  color: black;
+  font-size: 30px;
+  position:absolute;
+  top: 32%;
+  left: 20%;
+  -webkit-transform: translate (-50%, -50%);
+  -ms-tranform: translate (-50%, -50%);
+  transform: translate (-50%, -50%);
+  text-align: center;
+}
+
+.jasmineRow {
+  position: relative;
+  width: 50%;
+}
+
+.jasmineImage {
+  display: block;
+  width: auto;  
+  height: 350px;
+}
+
+.jasmineOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  width: 350px;
+  opacity: 0%;
+  transition: .5s ease;
+  background-color: rgb(255, 255, 116);
+}
+
+.jasmineRow:hover .jasmineOverlay {
+  opacity: 1;
+}
+
+.jasmineGithub {
+  color: black;
+  font-size: 30px;
+  position:absolute;
+  top: 32%;
+  left: 2%;
+  -webkit-transform: translate (-50%, -50%);
+  -ms-tranform: translate (-50%, -50%);
+  transform: translate (-50%, -50%);
+  text-align: center;
 }
 
 footer {

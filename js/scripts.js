@@ -15,7 +15,3 @@ function topFunction() {
   $(window).scrollTop(0);
 }
 
-
-HTMLTableRowElement.addEventListener ('mouseenter', e => {
-  HTMLTableRowElement.style
-})
