@@ -22,7 +22,7 @@ main {
 }
 
 #second-navbar {
-  background-color: yellow;
+  background-color: rgb(255, 255, 116);
   display: flex;  /* unlocks "flex" property for its children (<a> tags) */
 }
 #second-navbar a {
@@ -185,29 +185,17 @@ footer {
 footer a {
   margin: 5px;
   text-decoration: none!important;
+  color:white; 
 }
 
-.social-icon {
-  display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
-  width: 50px;
-  height: 50px;
-  color: #666;
-  background-color: white;
-  justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
-  align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
-  border-radius: 50%;  /* makes it round (circle if width and height are the same) */
-}
 
-.social-icon:hover {
-  color: #222;  /* change color when hover over the link */
-}
 
 #go-top-button {
   width: 50px;
   height: 50px;
-  background-color: yellow;
+  background-color: rgb(255, 255, 116);
   color: black;
-  outline-color: yellow;
+  outline-color:rgb(255, 255, 116);
   display: none;  /* Hidden by default */
   position: fixed;  /* Fixed/sticky position */
   bottom: 20px;  /* Place the button 20px from the bottom of the page */
@@ -216,7 +204,7 @@ footer a {
   border-radius: 50%;  /* makes it round (circle if width and height are the same) */
 }
 .btn {
-  background-color: yellow;
+  background-color:rgb(255, 255, 116);
   color: black; 
   border-color:black;
 
